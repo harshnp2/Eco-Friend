@@ -23,7 +23,7 @@ def detecting_object():
         'BIODEGRADABLE': 'Blank',
         'GLASS': 'GARBAGE',
         'METAL': 'RECYCLING',
-        'PAPER': 'GARBAGE',
+        'PAPER': 'RECYCLING',
     }
     while True:
         # reads what your camera shows
