@@ -4,10 +4,10 @@ import smtplib
 # sending email function
 def sending_email(type_trash):
     # email and password of eco friend
-    garbage_sorter_email = "garbagesorter2022@gmail.com"
-    password = "ISortGarbage123"
+    garbage_sorter_email = "Eco Friend Email"
+    password = "Password"
     # owner's email
-    user_email = "harshnp2@gmail.com"
+    user_email = "owner's email"
 
     # what the email will include in terms of text
     TEXT = f'The {type_trash} bin is full, please take it out!!!'
