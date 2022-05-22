@@ -2,7 +2,7 @@
 import time
 import serial
 from send_email import sending_email
-from trial import detecting_object
+from obj_detect import detecting_object
 global arduino
 arduino = serial.Serial('COM3', 9600)
 
